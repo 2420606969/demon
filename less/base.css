@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+ul,
+li {
+  list-style: none;
+}
+i,
+em {
+  font-style: normal;
+}
+input {
+  outline: 0;
+  border: 0;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+.clearfix ::after {
+  content: '';
+  display: block;
+  clear: both;
+}
